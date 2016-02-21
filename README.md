@@ -1,8 +1,9 @@
 # Rails Tests
 
-A collection of tests for building Rails web apps.
+A backend system for my project management.
 
 ## Getting Started
+
 ### Installing
 
 ## Deployment
