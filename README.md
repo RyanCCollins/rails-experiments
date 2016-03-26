@@ -1,6 +1,6 @@
-# Rails Tests
+# Ryan on Rails
 
-A backend system for my project management.
+A sample Rails application built in order to gain experience with Rails.
 
 ## Getting Started
 
