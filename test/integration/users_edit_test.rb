@@ -11,7 +11,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     patch user_path(@user), user: { name: '',
                                     email: 'ryan@bah',
                                     password: 'foo',
-                                    password_confirmation: 'bar' }
+                                    password_confirmation: 'baz' }
   end
   test 'successful edit' do
     log_in_as(@user)
