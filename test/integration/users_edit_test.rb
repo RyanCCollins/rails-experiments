@@ -17,8 +17,10 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     log_in_as(@user)
     get edit_user_path(@user)
     assert_template 'users/edit'
-    patch user_path(@user), user: { name: 'Ryan Collins',
-                                    email: 'admin@ryancollins.io',
+    name = 'Ryan Collins'
+    email = 'admin@ryancollins.io'
+    patch user_path(@user), user: { name: name,
+                                    email: email,
                                     password: '',
                                     password_confirmation: '' }
     assert_not flash.empty?
