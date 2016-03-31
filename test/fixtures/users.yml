@@ -3,3 +3,7 @@ ryan:
   name: Ryan Collins
   email: ryan@ryancollins.io
   password_digest: <%= User.digest('password') %>
+archer:
+  name: Sterling archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
